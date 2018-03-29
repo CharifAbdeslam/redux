@@ -1,9 +1,11 @@
 import React from 'react';
-import BookList from '../containers/BookList';
+import UserList from '../containers/UserList';
+import UserDetail from '../containers/UserDetail';
 const App=()=>{
     return (
       <div className="container text-center">
-      <BookList/>
+      <UserList/>
+      <UserDetail/>
       </div>
     );
 }

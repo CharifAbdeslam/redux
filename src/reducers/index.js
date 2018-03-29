@@ -1,6 +1,8 @@
 import { combineReducers } from 'redux';
-import People_list  from './reducers_bookList';
+import Userslist  from './reducers_userList';
+import Activeusers from './reducers_activeUsers';
 const rootReducer = combineReducers({
-  people : People_list
+  users : Userslist,
+  activeusers:Activeusers
 });
 export default rootReducer;
